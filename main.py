@@ -35,7 +35,7 @@ def detect_lanes(image):
     return cv2.addWeighted(image, 0.8, line_image, 1, 1)
 
 # Read the video clip
-cap = cv2.VideoCapture('C:\\Users\\vaibh\\Downloads\\testing_video5.mp4')
+cap = cv2.VideoCapture('Input_testing_video.mp4')
 
 while cap.isOpened():
     ret, frame = cap.read()
